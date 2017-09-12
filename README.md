@@ -20,7 +20,7 @@ You will find 2 examples here
 [RegisterWallet]: https://payoh.me/documentazione/api/directkit.wallets.register
 [UpdateWalletDetails]: https://payoh.me/documentazione/api/directkit.wallets.update-details
 [GetWalletDetails]: https://payoh.me/documentazione/api/directkit.wallets.get-details
-[RegisterCard]: https://payoh.me/documentazione/api/directkitk.moneyin.card.mi-register-card
+[RegisterCard]: https://payoh.me/documentazione/api/directkit.moneyin.card.mi-register-card
 [MoneyInWithCardId]: https://payoh.me/documentazione/api/directkit.moneyin.card.mi-with-card-id
 [SendPayment]: https://payoh.me/documentazione/api/directkit.p2p.sendpayment
 [RegisterIBAN]: https://payoh.me/documentazione/api/directkit.moneyout.registeriban

@@ -1,6 +1,6 @@
-This example shows how to call the [Lemonway API](http://documentation.lemonway.fr) in NodeJs
+This example shows how to call the [Payoh API](https://payoh.me/documentazione) in NodeJs
 
-You will have to send a [HTTP POST request (in the right format)](http://documentation.lemonway.fr/api-en/directkit/overview/requests-and-responses) to the API end point that we prepared for you.
+You will have to send a [HTTP POST request (in the right format)](https://payoh.me/documentazione/api/directkit.overview.request-response) to the API end point that we prepared for you.
 
 You will find 2 examples here
 
@@ -17,11 +17,11 @@ You will find 2 examples here
   - Register an IBAN for Receiver Wallet ([RegisterIBAN])
   - Transfer 10.00€ from Receiver Wallet to the real bank account with the registered IBAN ([MoneyOut])
 
-[RegisterWallet]: http://documentation.lemonway.fr/api-en/directkit/manage-wallets/registerwallet-creating-a-new-wallet
-[UpdateWalletDetails]: http://documentation.lemonway.fr/api-en/directkit/manage-wallets/updatewalletdetails-update-wallet-data
-[GetWalletDetails]: http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data
-[RegisterCard]: http://documentation.lemonway.fr/api-en/directkit/money-in-credit-a-wallet/by-card/registercard-linking-a-card-number-to-a-wallet-for-one-click-payment-or-rebill
-[MoneyInWithCardId]: http://documentation.lemonway.fr/api-en/directkit/money-in-credit-a-wallet/by-card/moneyinwithcardid-credit-of-a-wallet-with-a-tokenized-card
-[SendPayment]: http://documentation.lemonway.fr/api-en/directkit/p2p-transfer-between-wallets/sendpayment-on-us-payment-between-wallets
-[RegisterIBAN]: http://documentation.lemonway.fr/api-en/directkit/money-out-debit-a-wallet-and-credit-a-bank-account/registeriban-link-an-iban-to-a-wallet
-[MoneyOut]: http://documentation.lemonway.fr/api-en/directkit/money-out-debit-a-wallet-and-credit-a-bank-account/moneyout-external-fund-transfer-from-a-wallet-to-a-bank-account
+[RegisterWallet]: https://payoh.me/documentazione/api/directkit.wallets.register
+[UpdateWalletDetails]: https://payoh.me/documentazione/api/directkit.wallets.update-details
+[GetWalletDetails]: https://payoh.me/documentazione/api/directkit.wallets.get-details
+[RegisterCard]: https://payoh.me/documentazione/api/directkitk.moneyin.card.mi-register-card
+[MoneyInWithCardId]: https://payoh.me/documentazione/api/directkit.moneyin.card.mi-with-card-id
+[SendPayment]: https://payoh.me/documentazione/api/directkit.p2p.sendpayment
+[RegisterIBAN]: https://payoh.me/documentazione/api/directkit.moneyout.registeriban
+[MoneyOut]: https://payoh.me/documentazione/api/directkit.moneyout.moneyout

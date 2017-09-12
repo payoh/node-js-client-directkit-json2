@@ -13,7 +13,7 @@ var payerWallet = uid(16);
 var promiseRegisterPayerWallet = new Promise(function (resolve, reject) {
 	methods.RegisterWallet({
 		"wallet": 			payerWallet,
-		"clientMail": 		payerWallet + "@lemonway.com",
+		"clientMail": 		payerWallet + "@payoh.me",
 		"clientFirstName": 	"Payer",
 		"clientLastName": 	"Payer"
 	}).then(function(RegisterWalletResult) {
@@ -42,7 +42,7 @@ var promiseRegisterReceiverWallet = new Promise(function (resolve, reject) {
 	promiseGetWalletDetailsPayerWallet.then(function(value) {
 		methods.RegisterWallet({
 			"wallet": 			receiverWallet,
-			"clientMail": 		receiverWallet + "@lemonway.com",
+			"clientMail": 		receiverWallet + "@payoh.me",
 			"clientFirstName": 	"Receiver",
 			"clientLastName": 	"Receiver"
 		}).then(function(RegisterWalletResult) {
@@ -57,7 +57,7 @@ var promiseRegisterReceiverWallet = new Promise(function (resolve, reject) {
 var promiseGetWalletDetailsReceiverWallet = new Promise(function (resolve, reject) {
 	promiseRegisterReceiverWallet.then(function(value) {
 		methods.GetWalletDetails({
-			"email" : receiverWallet + "@lemonway.com"
+			"email" : receiverWallet + "@payoh.me"
 		}).then(function(GetWalletDetailsResult) {
 			console.log("\n---------- Receiver Wallet: " + receiverWallet + " ----------");
 			console.log(GetWalletDetailsResult.WALLET);
@@ -71,7 +71,7 @@ var promiseUpdateWalletDetails =  new Promise(function (resolve, reject) {
 	promiseGetWalletDetailsReceiverWallet.then(function(value) {
 		methods.UpdateWalletDetails({
 			"wallet": 	receiverWallet,
-			"newEmail": "new_" + receiverWallet + "@lemonway.com"
+			"newEmail": "new_" + receiverWallet + "@payoh.me"
 		}).then(function(UpdateWalletDetailsResult) {
 			console.log("\n---------- Update email of Receiver: " + receiverWallet + " ----------");
 			console.log(UpdateWalletDetailsResult.WALLET);
